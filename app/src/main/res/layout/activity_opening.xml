@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tech.tt.opening">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="-4dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="202dp"
+            app:srcCompat="@mipmap/ic_launcher_round" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="match_parent"
+            android:layout_height="154dp"
+            app:srcCompat="@drawable/da" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="288dp"
+            android:text="・このアプリは発電をイメージとしていますが、実際に発電できることはありません。\n
+・このアプリによる機材への充電は不可能であり、また、故障・漏電等の危険性はありません。\n
+・過度の画面タップによる画面故障に関しては、一切責任を負いません。\n
+・本アプリに登場するキャラクターは、クイッキー・デッチ【QuickyyDecchi】が正式名称となっております。" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
