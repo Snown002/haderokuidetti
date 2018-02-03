@@ -157,6 +157,7 @@ public class MainActivity extends AppCompatActivity {
             if (count >= 1300) {
                 Toast.makeText(MainActivity.this, "青き雷ワッツの勇気！", Toast.LENGTH_SHORT).show();
                 count3++;
+            }
         } else if (count3 == 13) {
             if (count >= 1400) {
                     Toast.makeText(MainActivity.this, "赤きリンゴは青森の熱情！", Toast.LENGTH_SHORT).show();
@@ -226,7 +227,6 @@ public class MainActivity extends AppCompatActivity {
             if (count >= 2700) {
                     Toast.makeText(MainActivity.this, "和訳:今すぐ一緒に来てけじゃ！", Toast.LENGTH_SHORT).show();
                     count3++;
-            }
             }
         }
     }
