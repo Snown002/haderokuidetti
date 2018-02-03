@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
         if (count3 == 0) {
             if(count>=100){
                 Toast.makeText(MainActivity.this,"すごいぞ！",Toast.LENGTH_SHORT).show();
-                imageview1.setImageResource(R.drawable.minideti02);
+                imageview1.setImageResource(R.drawable.appppp);
                 count3++;
                 removeHandler();
                 init(900);
@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
         } else if (count3 == 1) {
             if(count>=200){
                 Toast.makeText(MainActivity.this,"すさまじいぞ！",Toast.LENGTH_SHORT).show();
-                imageview2.setImageResource(R.drawable.minideti02);
+                imageview2.setImageResource(R.drawable.n);
                 count3++;
                 removeHandler();
                 init(800);
@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
         } else if (count3 == 2) {
             if(count>=300){
                 Toast.makeText(MainActivity.this,"ライトニング！",Toast.LENGTH_SHORT).show();
-                imageview3.setImageResource(R.drawable.minideti02);
+                imageview3.setImageResource(R.drawable.snow);
                 count3++;
                 removeHandler();
                 init(700);
@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
         } else if (count3 == 3) {
             if(count>=400){
                 Toast.makeText(MainActivity.this,"ファンタスティック！",Toast.LENGTH_SHORT).show();
-                imageview4.setImageResource(R.drawable.minideti02);
+                imageview4.setImageResource(R.drawable.rame);
                 count3++;
                 removeHandler();
                 init(600);
@@ -113,6 +113,7 @@ public class MainActivity extends AppCompatActivity {
         } else if (count3 == 4) {
             if(count>=500){
                 Toast.makeText(MainActivity.this,"エクセレント！",Toast.LENGTH_SHORT).show();
+                imageview1.setImageResource(R.drawable.f);
                 count3++;
                 removeHandler();
                 init(500);
@@ -120,37 +121,43 @@ public class MainActivity extends AppCompatActivity {
         } else if (count3 == 5) {
             if(count>=600){
                 Toast.makeText(MainActivity.this,"エキサイティング！",Toast.LENGTH_SHORT).show();
+                imageview2.setImageResource(R.drawable.t);
                 count3++;
             }
         } else if (count3 == 6) {
             if(count>=700){
                 Toast.makeText(MainActivity.this,"エクストリーム！",Toast.LENGTH_SHORT).show();
-                imageview4.setImageResource(R.drawable.minideti02);
+                imageview3.setImageResource(R.drawable.h);
                 count3++;
             }
         } else if (count3 == 7) {
             if(count>=800){
                 Toast.makeText(MainActivity.this,"エクスプローラー！",Toast.LENGTH_SHORT).show();
+                imageview4.setImageResource(R.drawable.r);
                 count3++;
             }
         } else if (count3 == 8) {
             if(count>=900){
                 Toast.makeText(MainActivity.this,"エクスプレス！",Toast.LENGTH_SHORT).show();
+                imageview1.setImageResource(R.drawable.appppp);
                 count3++;
             }
         } else if (count3 == 9) {
             if (count >= 1000) {
                 Toast.makeText(MainActivity.this, "ワンダフル！", Toast.LENGTH_SHORT).show();
+                imageview2.setImageResource(R.drawable.n);
                 count3++;
             }
             } else if (count3 == 10) {
                 if (count >= 1100) {
                     Toast.makeText(MainActivity.this, "ワアアアアッツ！", Toast.LENGTH_SHORT).show();
+                    imageview3.setImageResource(R.drawable.snow);
                     count3++;
             }
         } else if (count3 == 11) {
             if (count >= 1200) {
                 Toast.makeText(MainActivity.this, "青き炎はワッツの力！", Toast.LENGTH_SHORT).show();
+                imageview4.setImageResource(R.drawable.rame);
                 count3++;
             }
         } else if (count3 == 12) {
