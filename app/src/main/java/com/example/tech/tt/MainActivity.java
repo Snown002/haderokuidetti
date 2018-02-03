@@ -48,8 +48,16 @@ public class MainActivity extends AppCompatActivity {
                                     count=count+3;
                                     text.setText("総発電量："+count+"W");
                                     setToast();
-                                }else if(count > 2000){
+                                }else if(count > 2000 && count<=3000){
                                     count=count+5;
+                                    text.setText("総発電量："+count+"W");
+                                    setToast();
+                                }else if(count > 3000 && count<=5000){
+                                    count=count+8;
+                                    text.setText("総発電量："+count+"W");
+                                    setToast();
+                                }else if(count > 5000){
+                                    count=count+10;
                                     text.setText("総発電量："+count+"W");
                                     setToast();
                                 }
@@ -149,76 +157,76 @@ public class MainActivity extends AppCompatActivity {
             if (count >= 1300) {
                 Toast.makeText(MainActivity.this, "青き雷ワッツの勇気！", Toast.LENGTH_SHORT).show();
                 count3++;
-            } else if (count3 == 13) {
-                if (count >= 1400) {
+        } else if (count3 == 13) {
+            if (count >= 1400) {
                     Toast.makeText(MainActivity.this, "赤きリンゴは青森の熱情！", Toast.LENGTH_SHORT).show();
                     count3++;
-                }
-            } else if (count3 == 14) {
-                if (count >= 1500) {
+            }
+        } else if (count3 == 14) {
+            if (count >= 1500) {
                     Toast.makeText(MainActivity.this, "夕日とボールを追いかけて！", Toast.LENGTH_SHORT).show();
                     count3++;
-                }
-            } else if (count3 == 15) {
-                if (count >= 1600) {
+            }
+        } else if (count3 == 15) {
+            if (count >= 1600) {
                     Toast.makeText(MainActivity.this, "わっつどやてまれ我ら青森ワッツ！", Toast.LENGTH_SHORT).show();
                     count3++;
-                }
-            } else if (count3 == 16) {
-                if (count >= 1700) {
+            }
+        } else if (count3 == 16) {
+            if (count >= 1700) {
                     Toast.makeText(MainActivity.this, "＼応援歌・いくぞー！／", Toast.LENGTH_SHORT).show();
                     count3++;
-                }
-            } else if (count3 == 17) {
-                if (count >= 1800) {
+            }
+        } else if (count3 == 17) {
+            if (count >= 1800) {
                     Toast.makeText(MainActivity.this, "Everybody really loves Aomori Wat’s", Toast.LENGTH_SHORT).show();
                     count3++;
-                }
-            } else if (count3 == 18) {
-                if (count >= 1900) {
+            }
+        } else if (count3 == 18) {
+            if (count >= 1900) {
                     Toast.makeText(MainActivity.this, "和訳:みんな青森ワッツが大好き！", Toast.LENGTH_SHORT).show();
                     count3++;
-                }
-            } else if (count3 == 19) {
-                if (count >= 2000) {
+            }
+        } else if (count3 == 19) {
+            if (count >= 2000) {
                     Toast.makeText(MainActivity.this, "Come together right now go! 【Go! Wat’s】", Toast.LENGTH_SHORT).show();
                     count3++;
-                }
-            } else if (count3 == 20) {
-                if (count >= 2100) {
+            }
+        } else if (count3 == 20) {
+            if (count >= 2100) {
                     Toast.makeText(MainActivity.this, "和訳:今すぐ一緒に来てけじゃ！", Toast.LENGTH_SHORT).show();
                     count3++;
-                }
-            } else if (count3 == 21) {
-                if (count >= 2200) {
+            }
+        } else if (count3 == 21) {
+            if (count >= 2200) {
                     Toast.makeText(MainActivity.this, "Dancing to the love Aomori Wat’s", Toast.LENGTH_SHORT).show();
                     count3++;
-                }
-            } else if (count3 == 22) {
-                if (count >= 2300) {
+            }
+        } else if (count3 == 22) {
+            if (count >= 2300) {
                     Toast.makeText(MainActivity.this, "和訳:ワッツへの愛に合わせて踊れ", Toast.LENGTH_SHORT).show();
                     count3++;
                 }
-            } else if (count3 == 23) {
-                if (count >= 2400) {
+        } else if (count3 == 23) {
+            if (count >= 2400) {
                     Toast.makeText(MainActivity.this, "和訳:今すぐ一緒に来てけじゃ！", Toast.LENGTH_SHORT).show();
                     count3++;
-                }
-            } else if (count3 == 24) {
-                if (count >= 2500) {
+            }
+        } else if (count3 == 24) {
+            if (count >= 2500) {
                     Toast.makeText(MainActivity.this, "和訳:今すぐ一緒に来てけじゃ！", Toast.LENGTH_SHORT).show();
                     count3++;
-                }
-            } else if (count3 == 25) {
-                if (count >= 2600) {
+            }
+        } else if (count3 == 25) {
+            if (count >= 2600) {
                     Toast.makeText(MainActivity.this, "和訳:今すぐ一緒に来てけじゃ！", Toast.LENGTH_SHORT).show();
                     count3++;
-                }
-            } else if (count3 == 26) {
-                if (count >= 2700) {
+            }
+        } else if (count3 == 26) {
+            if (count >= 2700) {
                     Toast.makeText(MainActivity.this, "和訳:今すぐ一緒に来てけじゃ！", Toast.LENGTH_SHORT).show();
                     count3++;
-                }
+            }
             }
         }
     }
