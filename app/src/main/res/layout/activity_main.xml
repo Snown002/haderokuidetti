@@ -52,14 +52,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/da" />
+                    app:srcCompat="@drawable/ss" />
 
                 <ImageView
                     android:id="@+id/imageView3"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/dc" />
+                    app:srcCompat="@drawable/ss" />
             </LinearLayout>
 
             <ImageView
@@ -84,14 +84,14 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
 
-                    app:srcCompat="@drawable/db" />
+                    app:srcCompat="@drawable/ss" />
 
                 <ImageView
                     android:id="@+id/imageView4"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/dd" />
+                    app:srcCompat="@drawable/ss" />
             </LinearLayout>
         </LinearLayout>
 

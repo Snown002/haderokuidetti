@@ -80,205 +80,224 @@ public class MainActivity extends AppCompatActivity {
     private void setToast() {
 
         if (count3 == 0) {
-            if(count>=100){
-                Toast.makeText(MainActivity.this,"青森りんごは日本一の生産量！",Toast.LENGTH_SHORT).show();
-                imageview1.setImageResource(R.drawable.appppp);
+            if(count>=18){
+                Toast.makeText(MainActivity.this,"青森には18の大学があるぞ！",Toast.LENGTH_SHORT).show();
                 count3++;
                 removeHandler();
                 init(900);
             }
         } else if (count3 == 1) {
-            if(count>=200){
-                Toast.makeText(MainActivity.this,"熟成にんにく黒ニンニク！",Toast.LENGTH_SHORT).show();
-                imageview2.setImageResource(R.drawable.n);
+            if(count>=76){
+                Toast.makeText(MainActivity.this,"青森県観光物産館アスパムの高さは76ｍだ！",Toast.LENGTH_SHORT).show();
+                imageview1.setImageResource(R.drawable.as2);
                 count3++;
                 removeHandler();
                 init(800);
             }
         } else if (count3 == 2) {
-            if(count>=300){
-                Toast.makeText(MainActivity.this,"ホタテ保護のために植樹祭なんてのもあるぞ！",Toast.LENGTH_SHORT).show();
-                imageview3.setImageResource(R.drawable.h);
+            if(count>=100){
+                Toast.makeText(MainActivity.this,"青森りんごの生産量は日本一！",Toast.LENGTH_SHORT).show();
+                imageview2.setImageResource(R.drawable.appppp);
                 count3++;
                 removeHandler();
                 init(700);
             }
         } else if (count3 == 3) {
-            if(count>=400){
-                Toast.makeText(MainActivity.this,"煮干しラーメンが盛んだぞ！",Toast.LENGTH_SHORT).show();
-                imageview4.setImageResource(R.drawable.rame);
+            if(count>=200){
+                Toast.makeText(MainActivity.this,"黒ニンニクは熟成されたにんにくだ！",Toast.LENGTH_SHORT).show();
+                imageview3.setImageResource(R.drawable.n);
                 count3++;
                 removeHandler();
                 init(600);
             }
         } else if (count3 == 4) {
-            if(count>=500){
-                Toast.makeText(MainActivity.this,"温泉は色々あるぞ！朝湯行こうぜ！",Toast.LENGTH_SHORT).show();
-                imageview1.setImageResource(R.drawable.f);
+            if(count>=299){
+                Toast.makeText(MainActivity.this,"青森の風力発電機は299基あるぞ！",Toast.LENGTH_SHORT).show();
+                imageview4.setImageResource(R.drawable.wind);
                 count3++;
                 removeHandler();
                 init(500);
             }
         } else if (count3 == 5) {
-            if(count>=600){
-                Toast.makeText(MainActivity.this,"弘前城桜は日本一とも言われるぞ！",Toast.LENGTH_SHORT).show();
-                imageview2.setImageResource(R.drawable.t);
+            if(count>=400){
+                Toast.makeText(MainActivity.this,"ホタテのための植樹祭！" ,Toast.LENGTH_SHORT).show();
+                imageview1.setImageResource(R.drawable.h);
                 count3++;
             }
         } else if (count3 == 6) {
-            if(count>=700){
-                Toast.makeText(MainActivity.this,"ホワイトインパルスによる除雪は圧巻だ！",Toast.LENGTH_SHORT).show();
-                imageview3.setImageResource(R.drawable.snow);
+            if(count>=500){
+                Toast.makeText(MainActivity.this,"青森といえば煮干しラーメン！",Toast.LENGTH_SHORT).show();
+                imageview2.setImageResource(R.drawable.rame);
                 count3++;
             }
         } else if (count3 == 7) {
-            if(count>=800){
-                Toast.makeText(MainActivity.this,"酒をいっぱい出せ！",Toast.LENGTH_SHORT).show();
-                imageview4.setImageResource(R.drawable.r);
+            if(count>=566){
+                Toast.makeText(MainActivity.this,"酸ヶ湯の最大積雪量は566㎝！",Toast.LENGTH_SHORT).show();
+                imageview3.setImageResource(R.drawable.snow);
                 count3++;
             }
         } else if (count3 == 8) {
-            if(count>=900){
-                Toast.makeText(MainActivity.this,"太宰治は五所川原出身だ！",Toast.LENGTH_SHORT).show();
-                imageview1.setImageResource(R.drawable.daz);
+            if(count>=600){
+                Toast.makeText(MainActivity.this,"酸ヶ湯は名の通り酸性の温泉だ！",Toast.LENGTH_SHORT).show();
+                imageview4.setImageResource(R.drawable.f);
                 count3++;
             }
         } else if (count3 == 9) {
-            if (count >= 1000) {
-                Toast.makeText(MainActivity.this, "福地ホワイトだ！粒が大きくおいしい！", Toast.LENGTH_SHORT).show();
-                imageview2.setImageResource(R.drawable.hw);
+            if (count >= 700) {
+                Toast.makeText(MainActivity.this, "弘前城の桜は日本一！", Toast.LENGTH_SHORT).show();
+                imageview1.setImageResource(R.drawable.t);
                 count3++;
             }
         } else if (count3 == 10) {
-            if (count >= 1100) {
-                Toast.makeText(MainActivity.this, "版画家・棟方志功！", Toast.LENGTH_SHORT).show();
-                imageview3.setImageResource(R.drawable.mu);
+            if (count >= 800) {
+                Toast.makeText(MainActivity.this, "ホワイトインパルスの除雪は圧巻！", Toast.LENGTH_SHORT).show();
+                imageview2.setImageResource(R.drawable.snow);
                 count3++;
             }
         } else if (count3 == 11) {
-            if (count >= 1200) {
-                Toast.makeText(MainActivity.this, "醤油は煮干し、味噌はにんにく！そんなイメージもあるね！", Toast.LENGTH_SHORT).show();
-                imageview4.setImageResource(R.drawable.rame);
+            if (count >= 900) {
+                Toast.makeText(MainActivity.this, "青森は太陽光発電も推進しているぞ！", Toast.LENGTH_SHORT).show();
+                imageview3.setImageResource(R.drawable.sun);
                 count3++;
             }
         } else if (count3 == 12) {
-            if (count >= 1300) {
-                Toast.makeText(MainActivity.this, "412,000 tの生産量！", Toast.LENGTH_SHORT).show();
-                imageview1.setImageResource(R.drawable.appppp);
+            if (count >= 1000) {
+                Toast.makeText(MainActivity.this, "福地ホワイトだ！甘いぞ！高級品だ！", Toast.LENGTH_SHORT).show();
+                imageview4.setImageResource(R.drawable.hw);
                 count3++;
             }
         } else if (count3 == 13) {
-            if (count >= 1400) {
-                Toast.makeText(MainActivity.this, "S-アリルシステイン数倍で病気予防！", Toast.LENGTH_SHORT).show();
-                imageview2.setImageResource(R.drawable.n);
+            if (count >= 1084) {
+                Toast.makeText(MainActivity.this, "青森には1084の温泉があるらしい！", Toast.LENGTH_SHORT).show();
+                imageview1.setImageResource(R.drawable.f);
                     count3++;
             }
         } else if (count3 == 14) {
-            if (count >= 1500) {
-                Toast.makeText(MainActivity.this, "ホタテもいいが貝焼き味噌もうまいぞ！", Toast.LENGTH_SHORT).show();
-                imageview3.setImageResource(R.drawable.h);
+            if (count >= 1100) {
+                Toast.makeText(MainActivity.this, "太宰治は五所川原出身だ！", Toast.LENGTH_SHORT).show();
+                imageview2.setImageResource(R.drawable.daz);
                 count3++;
             }
         } else if (count3 == 15) {
-            if (count >= 1600) {
-                Toast.makeText(MainActivity.this, "煮干しはたまにえぐいがうまくいくと独特の風味にはまる！", Toast.LENGTH_SHORT).show();
-                imageview4.setImageResource(R.drawable.rame);
+            if (count >= 1400) {
+                Toast.makeText(MainActivity.this, "アスパム二階にはシアターがある！大迫力の20分を楽しもう！" , Toast.LENGTH_SHORT).show();
+                imageview3.setImageResource(R.drawable.as2);
                 count3++;
             }
         } else if (count3 == 16) {
-            if (count >= 1700) {
-                Toast.makeText(MainActivity.this, "酸ヶ湯という酸性温泉はなんと混浴だ！", Toast.LENGTH_SHORT).show();
-                imageview1.setImageResource(R.drawable.f);
+            if (count >= 1500) {
+                Toast.makeText(MainActivity.this, "青森の日本海側はいつも強風！いい発電所だ！", Toast.LENGTH_SHORT).show();
+                imageview4.setImageResource(R.drawable.wind);
                 count3++;
             }
         } else if (count3 == 17) {
-            if (count >= 1800) {
-                Toast.makeText(MainActivity.this, "ソメイヨシノは日本での品種改良で生まれたぞ！", Toast.LENGTH_SHORT).show();
-                imageview2.setImageResource(R.drawable.t);
+            if (count >= 1590) {
+                Toast.makeText(MainActivity.this, "1590年、津軽為信が津軽統一を成したぞ！", Toast.LENGTH_SHORT).show();
+                imageview1.setImageResource(R.drawable.t);
                 count3++;
             }
         } else if (count3 == 18) {
-            if (count >= 1900) {
-                Toast.makeText(MainActivity.this, "和訳:みんな青森ワッツが大好き！", Toast.LENGTH_SHORT).show();
-                imageview3.setImageResource(R.drawable.snow);
+            if (count >= 1600) {
+                Toast.makeText(MainActivity.this, "酒をいっぱい出せ！いっぱい出せ！", Toast.LENGTH_SHORT).show();
+                imageview2.setImageResource(R.drawable.r);
                 count3++;
             }
         } else if (count3 == 19) {
-            if (count >= 2000) {
-                Toast.makeText(MainActivity.this, "Come together right now go! 【Go! Wat’s】", Toast.LENGTH_SHORT).show();
-                imageview4.setImageResource(R.drawable.r);
+            if (count >= 1611) {
+                Toast.makeText(MainActivity.this, "1611年弘前城が完成！司馬遼太郎は日本七大名城と紹介している！", Toast.LENGTH_SHORT).show();
                 count3++;
             }
         } else if (count3 == 20) {
-            if (count >= 2100) {
-                Toast.makeText(MainActivity.this, "S-アリルシステイン四倍、疲労回復！", Toast.LENGTH_SHORT).show();
-                imageview1.setImageResource(R.drawable.daz);
+            if (count >= 1623) {
+                Toast.makeText(MainActivity.this, "1623年に三内丸山遺跡の存在は既に知られていたぞ！", Toast.LENGTH_SHORT).show();
                 count3++;
             }
         } else if (count3 == 21) {
-            if (count >= 2200) {
-                Toast.makeText(MainActivity.this, "Dancing to the love Aomori Wat’s", Toast.LENGTH_SHORT).show();
-                imageview2.setImageResource(R.drawable.hw);
+            if (count >= 1700) {
+                Toast.makeText(MainActivity.this, "日本海側には風力発電に必要な強さの風が吹いている！", Toast.LENGTH_SHORT).show();
+                imageview3.setImageResource(R.drawable.wind);
                 count3++;
             }
         } else if (count3 == 22) {
-            if (count >= 2300) {
-                Toast.makeText(MainActivity.this, "和訳:ワッツへの愛に合わせて踊って！", Toast.LENGTH_SHORT).show();
-                imageview3.setImageResource(R.drawable.mu);
-                count3++;
-                }
-        } else if (count3 == 23) {
-            if (count >= 2400) {
-                Toast.makeText(MainActivity.this, "Shake it up !", Toast.LENGTH_SHORT).show();
-                imageview4.setImageResource(R.drawable.r);
+            if (count >= 1800) {
+                Toast.makeText(MainActivity.this, "棟方志功は川上澄生の『初夏の風』を見て版画家になることを決意！", Toast.LENGTH_SHORT).show();
+                imageview4.setImageResource(R.drawable.mu);
                 count3++;
             }
+        } else if (count3 == 23) {
+            if (count >= 1875) {
+                Toast.makeText(MainActivity.this, "1875年、県庁構内に初めてりんごが植樹された！青森で生産されているリンゴは50種、出荷されているのは40種だ！", Toast.LENGTH_SHORT).show();
+                imageview4.setImageResource(R.drawable.appppp);
+                count3++;
+                }
         } else if (count3 == 24) {
-            if (count >= 2500) {
-                Toast.makeText(MainActivity.this, "和訳:さあさ急いで", Toast.LENGTH_SHORT).show();
-                imageview1.setImageResource(R.drawable.appppp);
+            if (count >= 1903) {
+                Toast.makeText(MainActivity.this, "1903年、棟方志功は青森に生まれた！", Toast.LENGTH_SHORT).show();
+                imageview1.setImageResource(R.drawable.mu);
                 count3++;
             }
         } else if (count3 == 25) {
-            if (count >= 2600) {
-                Toast.makeText(MainActivity.this, "Make a noise Here we go! 【Go! Wat’s】", Toast.LENGTH_SHORT).show();
-                imageview2.setImageResource(R.drawable.n);
+            if (count >= 1909) {
+                Toast.makeText(MainActivity.this, "1909年・太宰治は青森に生まれたぞ！", Toast.LENGTH_SHORT).show();
+                imageview2.setImageResource(R.drawable.daz);
                 count3++;
             }
         } else if (count3 == 26) {
-            if (count >= 2700) {
-                Toast.makeText(MainActivity.this, "和訳:声を張り上げ、さあ行こう！", Toast.LENGTH_SHORT).show();
-                imageview3.setImageResource(R.drawable.h);
+            if (count >= 1987) {
+                Toast.makeText(MainActivity.this, "1987年、ヒラメが県魚になったぞ！", Toast.LENGTH_SHORT).show();
+                imageview3.setImageResource(R.drawable.hi);
                 count3++;
             }
         } else if (count3 == 27) {
-            if (count >= 2800) {
-                Toast.makeText(MainActivity.this, "たんげだば待ってだじゃ", Toast.LENGTH_SHORT).show();
-                imageview4.setImageResource(R.drawable.rame);
+            if (count >= 1990) {
+                Toast.makeText(MainActivity.this, "1990年、青森シャモロックが開発されたぞ！", Toast.LENGTH_SHORT).show();
                 count3++;
             }
         } else if (count3 == 28) {
-            if (count >= 2900) {
-                Toast.makeText(MainActivity.this, "わも なも だもかも", Toast.LENGTH_SHORT).show();
-                imageview1.setImageResource(R.drawable.f);
+            if (count >= 1992) {
+                Toast.makeText(MainActivity.this, "1992年、三内丸山遺跡が見つかったぞ！", Toast.LENGTH_SHORT).show();
                 count3++;
             }
         } else if (count3 == 29) {
-            if (count >= 3000) {
-                Toast.makeText(MainActivity.this, "Tip off！ Tip off ！Wow Wow", Toast.LENGTH_SHORT).show();
-                imageview2.setImageResource(R.drawable.t);
+            if (count >= 1995) {
+                Toast.makeText(MainActivity.this, "1995年、海の日が制定されたぞ！" , Toast.LENGTH_SHORT).show();
+                imageview4.setImageResource(R.drawable.s1s);
                 count3++;
             }
         } else if (count3 == 30) {
-            if (count >= 3100) {
-                Toast.makeText(MainActivity.this, "和訳:ワッツへの愛に合わせて踊れ", Toast.LENGTH_SHORT).show();
-                imageview3.setImageResource(R.drawable.snow);
+            if (count >= 2006) {
+                Toast.makeText(MainActivity.this, "2006年、黒にんにくの魅力を弘前大学が発表！", Toast.LENGTH_SHORT).show();
+                imageview1.setImageResource(R.drawable.n);
                 count3++;
             }
         } else if (count3 == 31) {
-            if (count >= 32) {
-                Toast.makeText(MainActivity.this, "Shake it up !", Toast.LENGTH_SHORT).show();
-                imageview4.setImageResource(R.drawable.r);
+            if (count >= 2010) {
+                Toast.makeText(MainActivity.this, "2010年、ホタテが大量死！", Toast.LENGTH_SHORT).show();
+                imageview2.setImageResource(R.drawable.h);
+                count3++;
+            }
+        } else if (count3 == 32) {
+            if (count >= 2100) {
+                Toast.makeText(MainActivity.this, "", Toast.LENGTH_SHORT).show();
+                imageview3.setImageResource(R.drawable.r);
+                count3++;
+            }
+        } else if (count3 == 33) {
+            if (count >= 2006) {
+                Toast.makeText(MainActivity.this, "2006年、黒にんにくの魅力を弘前大学が発表！", Toast.LENGTH_SHORT).show();
+                imageview4.setImageResource(R.drawable.n);
+                count3++;
+            }
+        } else if (count3 == 34) {
+            if (count >= 2010) {
+                Toast.makeText(MainActivity.this, "2010年、ホタテが大量死！", Toast.LENGTH_SHORT).show();
+                imageview1.setImageResource(R.drawable.h);
+                count3++;
+            }
+        } else if (count3 == 35) {
+            if (count >= 2100) {
+                Toast.makeText(MainActivity.this, "", Toast.LENGTH_SHORT).show();
+                imageview2.setImageResource(R.drawable.r);
                 count3++;
             }
         }
